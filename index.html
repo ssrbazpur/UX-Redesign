@@ -20,6 +20,7 @@
         <link href="vendors/revolution/css/settings.css" rel="stylesheet">
         <link href="vendors/revolution/css/layers.css" rel="stylesheet">
         <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <!-- Extra plugin css -->
         <link href="vendors/owl-carousel/owl.carousel.min.css" rel="stylesheet">
@@ -30,6 +31,148 @@
  background-image: url("https://cdn.inspirationhut.net/wp-content/uploads/2013/05/201.png");
  background-color: #cccccc;
 }
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 180px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
 
         </style>
         
@@ -59,11 +202,7 @@
                                   <option value='yu' data-image="img/icon/flag-1.png" data-imagecss="flag yu" data-title="Bangladesh">Italian</option>
                                 </select>
                             </div>
-                            <select class="selectpicker usd_select">
-                                <option>USD</option>
-                                <option>$</option>
-                                <option>$</option>
-                            </select>
+                           
                             
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search" aria-label="Search">
@@ -75,6 +214,8 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="top_header_middle">
+
+                            
                             <a href="#"><i class="fa fa-phone"></i> Call Us: <span>+84 987 654 321</span></a>
                             <a href="#"><i class="fa fa-envelope"></i> Email: <span>support@yourdomain.com</span></a>
                             <img src="img/logo.png" alt="">
@@ -92,13 +233,7 @@
                             <ul class="top_right">
                                 <li class="user"><a href="#"><i class="icon-user icons"></i></a></li>
                                 <li class="cart"><a href="#"><i class="icon-handbag icons"></i></a></li>
-                                <li class="h_price">
-                                    <select class="selectpicker">
-                                        <option>$0.00</option>
-                                        <option>$0.00</option>
-                                        <option>$0.00</option>
-                                    </select>
-                                </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -287,6 +422,7 @@
                                             <div class="media-body">
                                                 <h4>Casual Shoes</h4>
                                                 <h5>$45.05</h5>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -306,6 +442,8 @@
                                                 <div class="f_p_text">
                                                     <h5>Nike Max Air Vapor Power</h5>
                                                     <h4>$45.05</h4>
+                                                    <h5>Ad Posted: 14 Nov,2019</h5>
+                                                    Owner Contact : +1 888 888 897
                                                 </div>
                                             </div>
                                         </div>
@@ -318,6 +456,8 @@
                                                 <div class="f_p_text">
                                                     <h5>Fossil Watch</h5>
                                                     <h4><del>$250</del> $110</h4>
+                                                    <h5>Ad Posted: 2 Nov,2019</h5>
+                                                    Owner Contact : +1 888 888 843
                                                 </div>
                                             </div>
                                         </div>
@@ -331,6 +471,7 @@
                                                     <h5>Ferrari</h5>
                                                     <h4>$1.25 Million</h4>
                                                     <h5>Date Posted: 14-11-2019</h5>
+                                                    Owner Contact : +1 888 888 888
                                                 </div>
                                             </div>
                                         </div>
@@ -343,6 +484,8 @@
                                                 <div class="f_p_text">
                                                     <h5>Nike Max Air Vapor Power</h5>
                                                     <h4>$45.05</h4>
+                                                    <h5>Ad Posted: 29 Nov,2019</h5>
+                                                    Owner Contact : +1 888 888 888
                                                 </div>
                                             </div>
                                         </div>
@@ -355,6 +498,7 @@
                                                 <div class="f_p_text">
                                                     <h5>Fossil Watch</h5>
                                                     <h4><del>$250</del> $110</h4>
+                                                    <h5>Ad Posted: 23 Nov,2019</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -367,6 +511,7 @@
                                                 <div class="f_p_text">
                                                     <h5>High Heel</h5>
                                                     <h4>$45.05</h4>
+                                                    <h5>Ad Posted: 25 Nov,2019</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -379,6 +524,7 @@
                                                 <div class="f_p_text">
                                                     <h5>Nike Max Air Vapor Power</h5>
                                                     <h4>$45.05</h4>
+                                                    <h5>Ad Posted: 27 Nov,2019</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -391,6 +537,7 @@
                                                 <div class="f_p_text">
                                                     <h5>Fossil Watch</h5>
                                                     <h4><del>$250</del> $110</h4>
+                                                    <h5>Ad Posted: 28 Nov,2019</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -403,6 +550,7 @@
                                                 <div class="f_p_text">
                                                     <h5>High Heel</h5>
                                                     <h4>$45.05</h4>
+                                                    <h5>Ad Posted: 21 Nov,2019</h5>
                                                 </div>
                                             </div>
                                         </div>
@@ -443,7 +591,7 @@
                         <div class="col-lg-4 col-md-4 col-6">
                             <aside class="f_widget f_about_widget">
                                 <img src="img/logo.png" alt="">
-                                <p>Persuit is a Premium PSD Template. Best choice for your online store. Let purchase it to enjoy now</p>
+                                <p>Craigslist can be used by anyone. It is free to use and registration is not mandatory.</p>
                                 <h6>Social:</h6>
                                 <ul>
                                     <li><a href="#"><i class="social_facebook"></i></a></li>
@@ -461,7 +609,7 @@
                                 </div>
                                 <ul>
                                     <li><a href="#">About us</a></li>
-                                    <li><a href="#">Delivery information</a></li>
+                                    <li><a href="#">Privacy</a></li>
                                     <li><a href="#">Terms & Conditions</a></li>
                                     <li><a href="#">Help Center</a></li>
                                     <li><a href="#">Returns & Refunds</a></li>
@@ -474,11 +622,10 @@
                                     <h3>Customer Service</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="#">My account</a></li>
-                                    <li><a href="#">Ordr History</a></li>
-                                    <li><a href="#">Wish List</a></li>
-                                    <li><a href="#">Newsletter</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Help</a></li>
+                                    <li><a href="#">Freuently asked Questions</a></li>
+                                    <li><a href="#">Safety</a></li>
+                                    
                                 </ul>
                             </aside>
                         </div>
@@ -488,10 +635,10 @@
                                     <h3>Extras</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="#">Brands</a></li>
-                                    <li><a href="#">Gift Vouchers</a></li>
-                                    <li><a href="#">Affiliates</a></li>
-                                    <li><a href="#">Specials</a></li>
+                                    <li><a href="#">Craig Newmark Philanthropies</a></li>
+                                    <li><a href="#">Craigslist TV</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Open Source</a></li>
                                 </ul>
                             </aside>
                         </div>
@@ -504,15 +651,45 @@
                                     <li><a href="#">My account</a></li>
                                     <li><a href="#">Ordr History</a></li>
                                     <li><a href="#">Wish List</a></li>
-                                    <li><a href="#">Newsletter</a></li>
+                                   
                                 </ul>
                             </aside>
                         </div>
+
+
+
+                        
                     </div>
                 </div>
+               
+                <button class="open-button" onclick="openForm()">Chat Support</button>
+
+                <div class="chat-popup" id="myForm">
+                  <form action="/action_page.php" class="form-container">
+                    <h1>Chat</h1>
+                
+                    <label for="msg"><b>Message</b></label>
+                    <textarea placeholder="Type message.." name="msg" required></textarea>
+                
+                    <button type="submit" class="btn">Send</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                  </form>
+                </div>
+                
+                <script>
+                function openForm() {
+                  document.getElementById("myForm").style.display = "block";
+                }
+                
+                function closeForm() {
+                  document.getElementById("myForm").style.display = "none";
+                }
+                </script>
+
+
                 <div class="footer_copyright">
                     <h5>© <script>document.write(new Date().getFullYear());</script> <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Project E</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </h5>
                 </div>
