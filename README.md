@@ -41,7 +41,7 @@ organization. Recruiter is usually a working professional. Generally, managers u
 Jobseeker: Job seekers are anyone who is looking for job opportunities. The job can be part-time and full time. In most
 cases, students seek part-time jobs and adults from the age group 25-35 look for full-time job opportunities.
   </li>
-  
+  </ul>
 Craigslist supports 15 different languages and has approximately sixty million users. Moreover, we found that the website is
 viewed by 50 million users every month and has 50 million daily queries. It is known that the website is mainly focused on
 buying, selling, and requesting services so the people older than 15 years of age are the main users.</p>
