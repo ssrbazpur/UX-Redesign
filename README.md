@@ -12,7 +12,9 @@ now is considered an American classified advertisement website. Craigslist is be
 still lags in terms of UI and UX. There are some similar website/applications available such as Alibaba, and Kijiji which,
 is also famous but they don't allow to search for jobs. Craigslist is a free ad posting website, and we use it to post the ads
 for the items we want to sell and buy or find jobs by contacting the relevant ad owner on email or phone.</p>
-## Description of the Users:
+
+<h2> Description of the Users:
+  </h2>
 <p> Craigslist is used by anyone who wants to buy, sell, hire, and post ads for the same. Apart from us, Senior citizens and
 adults also use this website to sell or buy new/used items. Also, professionals use this website to find job opportunities.
 The common characteristic among users is trust, as Craigslist winds diverse groups together. Also, convenience, choice,
@@ -21,16 +23,23 @@ value, and selection are some more characteristics that users look for while usi
 Also, it is important for us to understand the age group of the users to know about their use of the Craigslist. For instance,
 the students usually use Craigslist to sell their old phones, mattress, phones, books, laptops, etc.
 The intended audience can be categorized as:
-➢ Seller - A seller is one who posts advertisements regarding selling a product on Craigslist. We have sold many
+<ul>
+  <li>
+ Seller - A seller is one who posts advertisements regarding selling a product on Craigslist. We have sold many
 items on Craigslist such as cell-phones, mattresses, tables and etc. For selling an item we post an ad regarding the
-same.
-➢ Buyer – The buyer usually looks for advertisements on Craigslist and contacts the seller for buying the product.
-We use craigslist to buy used items such as a table, chair, mattress, phone, car, etc.
-➢ Recruiter - A recruiter is the one who posts an ad for the job opening to hire a suitable candidate for any firm or
+same.<li>
+  <li>
+ Buyer – The buyer usually looks for advertisements on Craigslist and contacts the seller for buying the product.
+    We use craigslist to buy used items such as a table, chair, mattress, phone, car, etc.</li>
+  <li>
+Recruiter - A recruiter is the one who posts an ad for the job opening to hire a suitable candidate for any firm or
 organization. Recruiter is usually a working professional. Generally, managers use this portal to post an ad to
-recruit new employees in their company
-➢ Jobseeker: Job seekers are anyone who is looking for job opportunities. The job can be part-time and full time. In most
+    recruit new employees in their company</li>
+  <li>
+Jobseeker: Job seekers are anyone who is looking for job opportunities. The job can be part-time and full time. In most
 cases, students seek part-time jobs and adults from the age group 25-35 look for full-time job opportunities.
+  </li>
+  
 Craigslist supports 15 different languages and has approximately sixty million users. Moreover, we found that the website is
 viewed by 50 million users every month and has 50 million daily queries. It is known that the website is mainly focused on
 buying, selling, and requesting services so the people older than 15 years of age are the main users.</p>
