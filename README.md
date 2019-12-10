@@ -44,7 +44,7 @@ Craigslist supports 15 different languages and has approximately sixty million u
 viewed by 50 million users every month and has 50 million daily queries. It is known that the website is mainly focused on
 buying, selling, and requesting services so the people older than 15 years of age are the main users.</p>
 
-## Identification of Opportunities for Redesign:
+<h2> Identification of Opportunities for Redesign: </h2>
 <p>
 We explored both common and specific task and found the following opportunities:
   <ul>
