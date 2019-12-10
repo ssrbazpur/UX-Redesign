@@ -17,15 +17,7 @@ for the items we want to sell and buy or find jobs by contacting the relevant ad
 adults also use this website to sell or buy new/used items. Also, professionals use this website to find job opportunities.
 The common characteristic among users is trust, as Craigslist winds diverse groups together. Also, convenience, choice,
 value, and selection are some more characteristics that users look for while using Craigslist.
-Common characteristics:
-Some common characteristics of the users of craigslist that is important for us to understand their use of the website is
-as follows:
-➢ Purpose of use.
-➢ Fulfillment of the user’s need for Craigslist.
-➢ Convenience to sell items from home.
-➢ Users looking for nearby job opportunities.
-➢ Ease of searching and exploring cheap options.
-➢ The satisfaction of buying a cheap item.
+
 Also, it is important for us to understand the age group of the users to know about their use of the Craigslist. For instance,
 the students usually use Craigslist to sell their old phones, mattress, phones, books, laptops, etc.
 The intended audience can be categorized as:
@@ -46,30 +38,34 @@ buying, selling, and requesting services so the people older than 15 years of ag
 ## Identification of Opportunities for Redesign:
 <p>
 We explored both common and specific task and found the following opportunities:
-❖ Many Redundant Links Used: The homepage contains a lot of redundant links such as help, privacy, feedback,
+  <ul>
+    <li>
+Many Redundant Links Used: The homepage contains a lot of redundant links such as help, privacy, feedback,
 safety, and many more. This means screen space is not prioritized and given less importance, and new users have
-a hard time finding relevant material.
-3
-❖ Absence of Consistent Navigation Bar: No navigation menu appears consistently throughout the website. This
-makes navigating across the website difficult.
-❖ Vague Event Calendar: There is no indication of the month on the event calendar. It does not allow us to search
-for events in future months and view past events.
-❖ Changing Location is time-consuming: It takes time to change location as we have to find through the list of
-locations. Also, Craigslist does not allow us to input a zip code on the home page.
-❖ Misleading Labels: Misleading and inappropriate labels are used which do not justify the category. For example,
-atv/utv/sno and materials for sale category can be better represented.
-❖ Discussion Forum is not user-friendly: A new user faces a hard time to get used to the forum. Also, adding
+      a hard time finding relevant material.</li>
+<li>
+ Absence of Consistent Navigation Bar: No navigation menu appears consistently throughout the website. This
+  makes navigating across the website difficult.</li>
+    <li>
+Vague Event Calendar: There is no indication of the month on the event calendar. It does not allow us to search
+      for events in future months and view past events.</li>
+<li>Changing Location is time-consuming: It takes time to change location as we have to find through the list of
+  locations. Also, Craigslist does not allow us to input a zip code on the home page.</li>
+<li>Misleading Labels: Misleading and inappropriate labels are used which do not justify the category. For example,
+  atv/utv/sno and materials for sale category can be better represented.</li>
+<li>Discussion Forum is not user-friendly: A new user faces a hard time to get used to the forum. Also, adding
 messages to the forum is not user-friendly. We have to add a handle and then only publish a message on the
-discussion forum.
-❖ No Built-in Chat Feature: No personal chat box available on Craigslist to fasten communication between buyer
-and seller. Instead, it is done using e-mail or call.
-❖ No Proper Guide for Signing up and Managing Account: Managing an account and Signing up is difficult as
+discussion forum.</li>
+<li> No Built-in Chat Feature: No personal chat box available on Craigslist to fasten communication between buyer
+and seller. Instead, it is done using e-mail or call.</li
+<li>No Proper Guide for Signing up and Managing Account: Managing an account and Signing up is difficult as
 Craigslist does not provide proper guidelines about how to create a strong password and what are the
-requirements.
-❖ No fixed resolution set: Ifthe selection of the language is changed, we can notice the width automatically changes.
-Some pages expand in width, and thus resolution is not fixed.
-❖ No Rating System: There is no way to rate the products we have bought from Craigslist. This makes the website
-less user-friendly and trustable.
+  requirements.</li>
+<li>No fixed resolution set: Ifthe selection of the language is changed, we can notice the width automatically changes.
+  Some pages expand in width, and thus resolution is not fixed.</li>
+    <li>
+No Rating System: There is no way to rate the products we have bought from Craigslist. This makes the website
+less user-friendly and trustable.</li>
   </p>
   
 ## Support for Identified Opportunities:
