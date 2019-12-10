@@ -75,8 +75,10 @@ Craigslist does not provide proper guidelines about how to create a strong passw
 <li>No fixed resolution set: Ifthe selection of the language is changed, we can notice the width automatically changes.
   Some pages expand in width, and thus resolution is not fixed.</li>
     <li>
+     
 No Rating System: There is no way to rate the products we have bought from Craigslist. This makes the website
 less user-friendly and trustable.</li>
+</ul>
   </p>
   
 ## Support for Identified Opportunities:
