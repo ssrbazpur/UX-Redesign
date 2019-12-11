@@ -102,3 +102,5 @@ While using Craigslist, we tried to search for renting an apartment, but for com
 convenient for reaching on emails to the owner. Instead, it is moreconvenient to have an in-built personalized chatbox
 for such a conversation. Also, we felt the requirement of a rating system on the site like Craigslist as it will help the new
 user to contact the right seller. </p>
+
+## Published at: https://ssrbazpur.github.io/UX-Redesign/
