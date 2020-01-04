@@ -103,4 +103,4 @@ convenient for reaching on emails to the owner. Instead, it is moreconvenient to
 for such a conversation. Also, we felt the requirement of a rating system on the site like Craigslist as it will help the new
 user to contact the right seller. </p>
 
-## Published at: https://ssrbazpur.github.io/UX-Redesign/
+<p> Published at: <i>https://ssrbazpur.github.io/UX-Redesign/</i> </p>
