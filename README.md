@@ -1,5 +1,5 @@
 <h1 align="center">UX-Redesign</h1>
-<center><p align="center"> Published at: <i>https://ssrbazpur.github.io/UX-Redesign/</i> </p></center>
+<center><p align="center"><i>https://ssrbazpur.github.io/UX-Redesign/</i> </p></center>
 <img src="https://www.competethemes.com/wp-content/uploads/2017/02/create-site-like-craigslist-1024x512.png"/>
 
 ## Background and Motivation:
