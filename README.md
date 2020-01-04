@@ -1,5 +1,5 @@
 # UX-Redesign
-
+<center><p> Published at: <i>https://ssrbazpur.github.io/UX-Redesign/</i> </p></center>
 <img src="https://www.competethemes.com/wp-content/uploads/2017/02/create-site-like-craigslist-1024x512.png"/>
 
 ## Background and Motivation:
@@ -103,4 +103,4 @@ convenient for reaching on emails to the owner. Instead, it is moreconvenient to
 for such a conversation. Also, we felt the requirement of a rating system on the site like Craigslist as it will help the new
 user to contact the right seller. </p>
 
-<p> Published at: <i>https://ssrbazpur.github.io/UX-Redesign/</i> </p>
+
